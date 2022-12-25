@@ -1,0 +1,74 @@
+hr {
+  color: #e7e7e7;
+  margin: 30px 0;
+}
+
+.file-area {
+  background: #fffefe;
+  border: 1px dashed #e7e7e7;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 32px;
+  cursor: pointer;
+
+  input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  &:hover a,
+  &:active a {
+    text-decoration: none;
+  }
+}
+
+.file-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #888;
+  text-align: center;
+  padding: 12px 20px;
+  pointer-events: none;
+  img {
+    transform: scale(3);
+    margin-right: 15px;
+  }
+}
+
+a,
+.link {
+  color: #0038ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover,
+.link:hover,
+a:active,
+.link:active {
+  text-decoration: none;
+}
+
+.file-head {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @media (max-width: 1023px) {
+    flex-flow: column-reverse nowrap;
+    align-items: stretch;
+
+    .action--date {
+      margin-bottom: 10px;
+    }
+  }
+}

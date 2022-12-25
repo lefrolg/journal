@@ -1,0 +1,25 @@
+.user {
+  padding: 25px 25px 0 25px;
+  border-top: 1px solid #ffb000;
+  position: relative;
+
+  &__actions {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__position {
+    font-size: 10px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.64;
+  }
+}

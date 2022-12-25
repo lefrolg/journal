@@ -1,0 +1,71 @@
+{
+  "CompaniesNav": {
+    "employees": "Employees",
+    "account": "Invoice",
+    "act": "Act"
+  },
+  "Total": {
+    "total": "Total",
+    "amount": "records not found | record found | records found"
+  },
+  "Import": {
+    "title": "Import employees",
+    "label": "Download the file in csv, xls, xlsx format according to ",
+    "template": "template.",
+    "instructionsPart1": "Select a file",
+    "instructionsPart2": "or drag it into this area"
+  },
+  "Button": {
+    "Cancel": "Cancel",
+    "Close": "Close",
+    "Ok": "Ok",
+    "Save": "Save",
+    "Load": "Load",
+    "Add": "Add",
+    "Previous": "Download previous",
+    "Import": "Import",
+    "Edit": "Edit",
+    "Remove": "Remove",
+    "Continue": "Continue"
+  },
+  "Input": {
+    "name": "Name",
+    "phone": "Phone",
+    "CardType": "Card Type",
+    "Period": "Period",
+    "SignIn": "Sign In",
+    "SMS": "SMS code",
+    "Resend": "Resend SMS"
+  },
+  "EditEmployee": {
+    "titleAdd": "Add Employee",
+    "titleEdit": "Edit Employee"
+  },
+  "Error": {
+    "phoneSymbol": "The phone number can only contain numbers. ",
+    "phoneCountry": "The country code is not supported. ",
+    "phoneCity": "The city code is not supported. ",
+    "phoneNumber1": "Phone cannot contain more than ",
+    "phoneNumber2": " characters",
+    "nameSymbol": "The name contains forbidden characters",
+    "400": "There was Some Problem, while processing your Request",
+    "401": "Unauthorized, You are not Allowed",
+    "403": "Sorry, You are not allowed for This Action",
+    "404": "Don't found",
+    "405": "API Route Method Not Allowed",
+    "500": "Server Error, please try again later",
+    "request": "There is Some Problem With Our Servers, Please Try again Later",
+    "other": "There was some Problem with your Request, Please Try again Later"
+  },
+  "EmployeesList": {
+    "Name": "Name",
+    "CardType": "Card Type",
+    "Phone": "Phone number",
+    "Errors": "Errors"
+  },
+  "NeedConfirm": "Confirmation is required",
+  "AYouSure": "Are you sure?",
+  "Login": {
+    "ResendMessage": "Didn't receive SMS? Request a resend in {n} seconds | Didn't receive SMS? Request a resend in {n} second | Didn't receive SMS? Request a resend in {n} seconds"
+  }
+}
